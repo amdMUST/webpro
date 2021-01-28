@@ -12,6 +12,9 @@ a{
     color: white;
     text-shadow: 1px 1px #111111;
 }
+a:visited{
+    color: #b8b8b8;
+}
 a:hover{
     color: #d5350a;
 }
@@ -33,5 +36,28 @@ td{
     width: 33%;
 }
 tr:nth-child(even) {
-    background-color: #808080;
+    background-color: #3e5549;
+}
+li{
+    text-align: left;
+    margin-left: 1%;
+}
+ul{
+    list-style-type: square;
+}
+#hobbies-list{
+    text-align: left;
+    margin-left: 35%;
+    list-style-type: circle;
+}
+#hobbies-list2{
+    text-align: left;
+    list-style-type: disc;
+}
+#quote{
+    margin: 0 auto;
+}
+span{
+    color: red;
+    font-weight: bold;
 }
